@@ -1,0 +1,10 @@
+<% 
+	date = DateTime.now
+
+%>
+DateTime     : <%= date %>
+Name         : <%= name %>
+Camelize     : <%= inflector.camelize( name ) %>
+Classify     : <%= inflector.classify( name ) %>
+Constantize  : <%= inflector.dasherize( name ) %>
+
